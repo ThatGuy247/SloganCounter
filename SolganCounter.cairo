@@ -25,8 +25,8 @@ def get_count(slogan: string) -> felt:
 // Function to increment the count of a slogan.
 @public
 def cast(slogan: string):
-    # Assert that the length of the input slogan is not more than 30 characters.
-    assert len(slogan) <= 30, "Slogan length must not exceed 30 characters."
+    # Assert that the length of the input slogan is between 5 and 30 characters.
+    assert 5 <= len(slogan) <= 30, "Slogan length must be between 5 and 30 characters."
 
     # If the slogan is not in the map, initialize it to 0.
     if self.slogans[slogan] is none:

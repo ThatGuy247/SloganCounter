@@ -1,6 +1,6 @@
 // StarkNet contract
 // This is a simplified translation of the Solidity contract to Cairo for StarkNet.
-
+// Use this to store a Slogan and Count how many times it's been casted
 // The Cairo standard library should be imported.
 import  starkware.cairo.common as common
 

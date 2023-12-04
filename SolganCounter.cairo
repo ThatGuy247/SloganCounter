@@ -1,4 +1,4 @@
-// StarkNet contract
+// StarkNet Simple Contract
 // This is an extension of the previous Cairo contract to store and show top 10 slogans.
 
 // The Cairo standard library should be imported.

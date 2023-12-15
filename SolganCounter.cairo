@@ -1,5 +1,5 @@
 // StarkNet Simple Contract
-// This is a modified version of the previous Cairo contract to store and show top 10 slogans.
+// This is a modified version of the previous Cairo contract to store and show top 10 slogans. MY LOVE
 
 // The Cairo standard library should be imported.
 import starkware.cairo.common as common

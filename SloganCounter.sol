@@ -19,7 +19,7 @@ contract SloganCounter {
             slogans[slogan] = 0;
         }
 
-        // Increment the count.
+        // Increment the count. 
         slogans[slogan]++;
 
         // Update the topSlogans list.

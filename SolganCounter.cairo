@@ -5,7 +5,7 @@
 import starkware.cairo.common as common
 
 // Define the contract storage. 
-data SloganCounter:
+data SloganCounter: 
     slogans: storage(map(string, felt)) 
     top_slogans: storage(list((string, felt)))
 

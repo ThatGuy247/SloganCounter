@@ -25,7 +25,7 @@ contract SloganCounter {
         // Update the topSlogans list.
         updateTopSlogans(slogan);
     }
-
+ 
     // Internal function to update the topSlogans list.
     function updateTopSlogans(string memory newSlogan) internal {
         // Update the topSlogans list based on the usage count.

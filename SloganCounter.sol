@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
  // fuck gitcoin - again
 contract SloganCounter {
     mapping(string => uint256) private slogans;
-    mapping(uint256 => string) private topSlogans; 
+    mapping(uint256 => string) private topSlogans;  
  
     // Function to get the count of a slogan. 
     function getCount(string memory slogan) external view returns (uint256) {

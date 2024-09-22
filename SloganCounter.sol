@@ -5,7 +5,7 @@ contract SloganCounter {
     mapping(string => uint256) private slogans;
     mapping(uint256 => string) private topSlogans; 
  
-    // Function to get the count of a slogan.
+    // Function to get the count of a slogan. 
     function getCount(string memory slogan) external view returns (uint256) {
         return slogans[slogan];
     }

@@ -7,7 +7,7 @@ contract SloganCounter {
  
     // Function to get the count of a slogan. 
     function getCount(string memory slogan) external view returns (uint256) {
-        return slogans[slogan];
+        return slogans[slogan]; 
     }
 
     // Function to increment the count of a slogan.

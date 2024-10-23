@@ -1,7 +1,7 @@
 // StarkNet Contract - nah not a fan
 // This is a modified version of the previous Cairo contract to store and show top 10 slogans. 
  
-// The Cairo standard library should be imported.
+// The Cairo standard library should be imported. 
 import starkware.cairo.common as common  
  
 // Define the contract storage. 

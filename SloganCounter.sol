@@ -9,7 +9,7 @@ contract SloganCounter {
     function getCount(string memory slogan) external view returns (uint256) {
         return slogans[slogan];  
     }
- 
+    
     // Function to increment the count of a slogan.
     function cast(string memory slogan) external {
         require(bytes(slogan).length >= 5 && bytes(slogan).length <= 30, "Slogan length must be between 5 and 30 characters.");

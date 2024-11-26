@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT 
 pragma solidity ^0.8.0; 
  // fuck gitcoin - again
-contract SloganCounter {
+contract SloganCounter { 
     mapping(string => uint256) private slogans;    
     mapping(uint256 => string) private topSlogans;  
      

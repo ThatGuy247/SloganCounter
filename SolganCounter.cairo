@@ -10,7 +10,7 @@ data SloganCounter:
     top_slogans: storage(list((string, felt)))
 
 // Initialize the contract.
-@public
+@public 
 @init 
 def __init__():
     self.slogans = {}

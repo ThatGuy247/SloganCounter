@@ -11,7 +11,7 @@ data SloganCounter:
 
 // Initialize the contract.
 @public 
-@init 
+@init  
 def __init__():
     self.slogans = {}
     self.top_slogans = []

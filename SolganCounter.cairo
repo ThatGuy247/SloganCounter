@@ -8,7 +8,7 @@ import starkware.cairo.common as common
 data SloganCounter:   
     slogans: storage(map(string, felt))  
     top_slogans: storage(list((string, felt)))
-
+ 
 // Initialize the contract.
 @public 
 @init  
